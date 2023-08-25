@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Rubik:wght@300&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Rubik:wght@300&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Buzzz</title>
+    <script src="buzz.js" defer></script>
+  </head>
+
+  <body>
+    <div id="Main-Container">
+      <section id="Welcome-Section">
+        <div id="logoDiv">
+          <img
+            class="logo"
+            src="C:\Users\User\desktop\repos\Buzzsite.html\buzzlogo.jpg" />
+        </div>
+        <div>
+          <h3>Get buzzed in just a few clicks.</h3>
+          <img
+            class="image1"
+            src="C:\Users\User\desktop\repos\Buzzsite.html\Rectangle 1 (1).jpg" />
+        </div>
+        <div>
+          <h3>
+            Quality cannabis, discreet <br />delivery, sourced from licensed<br />
+            vendors.
+          </h3>
+          <img
+            class="image2"
+            src="C:\Users\User\desktop\repos\Buzzsite.html\Rectangle 2.jpg" />
+        </div>
+        <div>
+          <h3 id="ezdelivery">
+            We make it easy with delivery &<br />
+            pick up options where available.
+          </h3>
+          <img
+            class="image3"
+            src="C:\Users\User\desktop\repos\Buzzsite.html\Rectangle 3.jpg" />
+        </div>
+        <div class="your-exp-div">
+          <h3 id="exh3">Your experience starts here!</h3>
+          <img
+            class="image4"
+            src="C:\Users\User\desktop\repos\Buzzsite.html\Rectangle 5.jpg" />
+          <button onclick="CustOrVenPg()" class="button" id="sign-up-btn">
+            Sign Up
+          </button>
+        </div>
+      </section>
+
+      <section id="SignUp-Section">
+        <div id="logoDiv">
+          <img
+            class="logo"
+            id="SignUp-logo"
+            src="C:\Users\User\desktop\repos\Buzzsite.html\buzzlogo.jpg" />
+        </div>
+        <div class="CustOrVen-div">
+          <img
+            class="Customer-image"
+            src="C:\Users\User\desktop\repos\Buzzsite.html\Ellipse 3.png" />
+          <button
+            onclick="CustSignPg()"
+            class="custbutton"
+            id="CustOrVenButtons">
+            Customer
+          </button>
+          <img
+            class="Ven-image"
+            src="C:\Users\User\desktop\repos\Buzzsite.html\Ellipse 2.png" />
+          <button id="CustOrVenButtons">Vendor</button>
+        </div>
+      </section>
+      <section id="CustomerSignUp">
+        <div id="logoDiv">
+          <img
+            class="logo"
+            id="SignUp-logo"
+            src="C:\Users\User\desktop\repos\Buzzsite.html\buzzlogo.jpg" />
+        </div>
+        <div class="CustSignDiv">
+          <h3>Lets get some information</h3>
+
+          <form class="inputform">
+            <label for="fname">First name</label><br />
+            <input type="text" id="fname" name="fname" /><br /><br />
+            <label for="lname">Last name</label><br />
+            <input type="text" id="lname" name="lname" /><br /><br />
+            <label for="email">Email</label><br />
+            <input type="email" id="email" name="email" /><br /><br />
+            <label for="dob">Date of birth</label><br />
+            <input type="date" id="dob" name="dob" /><br /><br />
+            <label for="address">Address</label><br />
+            <input type="text" id="address" name="address" /><br /><br />
+            <label for="City">City</label><br />
+            <input type="text" id="city" name="city" /><br /><br />
+            <input
+              onclick="oldEnough()"
+              type="button"
+              id="nextBtn"
+              name="next" />
+          </form>
+        </div>
+      </section>
+      <section id="billingInfo">
+        <h1>youre here</h1>
+      </section>
+    </div>
+  </body>
+</html>
